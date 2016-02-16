@@ -19,7 +19,6 @@ public class Menu : MonoBehaviour {
 
 	IEnumerator ClickPlayCo(){
 		waitImage.SetActive (true);
-		//WaitForSeconds (2f);
 		yield return new WaitForSeconds(2f);
 		Debug.Log ("Chuyen man hinh");
 		Application.LoadLevel ("Choose Map");
