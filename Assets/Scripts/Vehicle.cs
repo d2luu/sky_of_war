@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Vehicle {
+public class Vehicle :MonoBehaviour{
 	public float speed;
 	public int healthy;
 	public bool checkDestroy(){
