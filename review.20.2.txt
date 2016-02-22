@@ -3,8 +3,12 @@ Good:
 
 
 Bad:
+<<<<<<< HEAD
 +.
 
 
 Y/c:
 Ham update 
+=======
++.
+>>>>>>> e0903e7e6a561243c138a133852fa0d8a1a199e3
