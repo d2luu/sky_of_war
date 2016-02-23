@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="windows-1258"?>
 <LevelData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>test</Name>
+  <Name>Map Thanh Pho</Name>
   <Difficult>1</Difficult>
-  <Player>
-    <ObjectData xsi:nil="true" />
-    <ObjectData xsi:nil="true" />
-    <ObjectData xsi:nil="true" />
-  </Player>
+  <Player />
   <Enemy />
   <Backgrounds>
     <ObjectData>
