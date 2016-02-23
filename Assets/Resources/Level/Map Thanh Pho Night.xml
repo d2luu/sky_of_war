@@ -45,6 +45,70 @@
       <posY>33</posY>
       <posZ>0</posZ>
     </ObjectData>
+    <ObjectData>
+      <name>cloud 1</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>-3.93</posX>
+      <posY>27.48</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>cloud 2</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0.58</posX>
+      <posY>30.16</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>cloud 3</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0.98</posX>
+      <posY>0.54</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>cloud 4</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0.29</posX>
+      <posY>17.1</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>cloud 3</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>-3.9</posX>
+      <posY>21.64</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>cloud 3</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>1.85</posX>
+      <posY>9.65</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>cloud 3</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>-2.13</posX>
+      <posY>6.53</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>cloud 2</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>-3.48</posX>
+      <posY>33.6</posY>
+      <posZ>0</posZ>
+    </ObjectData>
   </Backgrounds>
   <Boss />
 </LevelData>
