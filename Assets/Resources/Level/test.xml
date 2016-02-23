@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<LevelData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>test</Name>
+  <Difficult>1</Difficult>
+  <Player>
+    <ObjectData xsi:nil="true" />
+    <ObjectData xsi:nil="true" />
+    <ObjectData xsi:nil="true" />
+  </Player>
+  <Enemy />
+  <Backgrounds>
+    <ObjectData>
+      <name>city 1</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>1</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>city 2</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>9</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>city 3</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>17</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>city 4</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>25</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>city 5</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>33</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+  </Backgrounds>
+  <Boss />
+</LevelData>

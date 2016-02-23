@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class PlayerController : Vehicle {
+
 	public float shotDelay;	
 	public GameObject bullet;
 	public GameObject explosion;
@@ -9,7 +10,6 @@ public class PlayerController : Vehicle {
 	float x,y;
 	float swipeSpeed;
 	Vector2 prevMousePos,currentMousePos;
-	public Camera cameraObject;
 	// 
 	IEnumerator Start(){
 		anim = GetComponent<Animator> ();

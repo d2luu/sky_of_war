@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1258"?>
+<LevelData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Map Thanh Pho Night</Name>
+  <Difficult>1</Difficult>
+  <Player />
+  <Enemy />
+  <Backgrounds>
+    <ObjectData>
+      <name>n01</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>1</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>n02</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>9</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>n03</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>17</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>n04</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>25</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>n05</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>33</posY>
+      <posZ>0</posZ>
+    </ObjectData>
+  </Backgrounds>
+  <Boss />
+</LevelData>
