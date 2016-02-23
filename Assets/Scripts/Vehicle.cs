@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
 // yeu cau phai co thanh phan Rigidbody2D
 [RequireComponent(typeof(Rigidbody2D))]
 public class Vehicle : MonoBehaviour{
@@ -18,4 +17,3 @@ public class Vehicle : MonoBehaviour{
 		Debug.Log("Healthy:" + healthy);
 	}
 }
- 
