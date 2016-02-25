@@ -69,14 +69,14 @@ public class TimeCounter : MonoBehaviour {
 
 
 	//Cai dat thoi gian enemy xuat hien theo kich ban.
-	void ActionStopSpawnEnemy()
+	public void ActionStopSpawnEnemy()
 	{
 		spawnn.GetComponent<EnemySpawn>().StopSpawnEnermy();
 	}
 
 	public void ActionSecond5()
 	{
-		spawnn.GetComponent<EnemySpawn>().StartSpawnEnemy(0,0.5f);
+		spawnn.GetComponent<EnemySpawn>().StartSpawnEnemy(0,3f);
 
 
 	}

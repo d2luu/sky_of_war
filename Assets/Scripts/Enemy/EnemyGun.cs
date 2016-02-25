@@ -3,11 +3,11 @@ using System.Collections;
 
 public class EnemyGun : MonoBehaviour {
 
-	public GameObject enemyBullet; // pretabs
+	public GameObject enemybullet; // prefabs
 	
 	// Use this for initialization
 	void Start () {
-		Invoke ("Fire", 1f);
+		InvokeRepeating ("Fire", 1f, 3.5f);
 	}
 	
 	// Update is called once per frame
@@ -17,19 +17,19 @@ public class EnemyGun : MonoBehaviour {
 	
 	
 	void Fire()
-		
+
 	{
-		GameObject ship = GameObject.Find("Player");
+		GameObject player = GameObject.Find("Player");
 		
-		if(ship != null)// player not dead
+		if(player != null)// player not dead
 		{
-			GameObject fireBullet = (GameObject)Instantiate(enemyBullet);
-			fireBullet.transform.position = transform.position;
+			GameObject fireBullet = (GameObject)Instantiate(enemybullet);
+			fireBullet.transform.position = this.transform.position;
 			
 			//compute the Dan's derection towards the ship
-			Vector2 direction = ship.transform.position - fireBullet.transform.position;
+			Vector2 direction = player.transform.position - fireBullet.transform.position;
 			// set direction
-			fireBullet.GetComponent<EnemyBullet>().SetDirection(direction);
+			fireBullet.GetComponent<BulletEnemy>().SetDirection(direction);
 			
 		}
 	}
