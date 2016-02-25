@@ -2,10 +2,7 @@
 <LevelData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Map Nui Tuyet</Name>
   <Difficult>1</Difficult>
-  <Player>
-    <ObjectData xsi:nil="true" />
-    <ObjectData xsi:nil="true" />
-  </Player>
+  <Player />
   <Enemy />
   <Backgrounds>
     <ObjectData>
@@ -13,7 +10,7 @@
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
-      <posY>0</posY>
+      <posY>1</posY>
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
@@ -21,7 +18,7 @@
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
-      <posY>8</posY>
+      <posY>9</posY>
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
@@ -29,7 +26,7 @@
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
-      <posY>16</posY>
+      <posY>17</posY>
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
@@ -37,7 +34,7 @@
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
-      <posY>24</posY>
+      <posY>25</posY>
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
@@ -45,8 +42,24 @@
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
-      <posY>32</posY>
+      <posY>33</posY>
       <posZ>0</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>bridge</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>0</posX>
+      <posY>26.53</posY>
+      <posZ>-1</posZ>
+    </ObjectData>
+    <ObjectData>
+      <name>khu-can-cu</name>
+      <angle>0</angle>
+      <height>0</height>
+      <posX>-1.52</posX>
+      <posY>30.73</posY>
+      <posZ>-1</posZ>
     </ObjectData>
   </Backgrounds>
   <Boss />

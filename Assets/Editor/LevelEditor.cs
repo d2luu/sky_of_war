@@ -13,7 +13,7 @@ public class LevelEditor : Editor{
 	public static GameObject enemy = GameObject.Find("Enemy");
 	public static GameObject boss = GameObject.Find("Boss");
 
-	public static string levelPath = Path.Combine(Path.Combine(Application.dataPath, "Resource"), "Level");
+	public static string levelPath = Path.Combine(Path.Combine(Application.dataPath, "Resources"), "Level");
 
 	public static string mapFile;
 	
@@ -94,6 +94,18 @@ public class LevelEditor : Editor{
 				Debug.Log(obj);
 				obj.transform.SetParent (backGround.transform);
 				obj.transform.position = new Vector3 (data.Backgrounds [i].posX, data.Backgrounds [i].posY, data.Backgrounds [i].posZ);
+				
+			}
+			ObjectData[] players = data.Player;
+			if (!player)
+				player = GameObject.Find ("Player");
+			for (int i = 0; i<players.Length; i++) {
+				string path = "Player/" + players [i].name;
+				Debug.Log(path);
+				GameObject obj = (GameObject)PrefabUtility.InstantiatePrefab (Resources.Load (path));
+				Debug.Log(obj);
+				obj.transform.SetParent (player.transform);
+				obj.transform.position = new Vector3 (data.Player [i].posX, data.Player [i].posY, data.Player [i].posZ);
 				
 			}
 		}

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="windows-1258"?>
 <LevelData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>test</Name>
+  <Name>Map Rung Ho Night</Name>
   <Difficult>1</Difficult>
-  <Player>
-    <ObjectData xsi:nil="true" />
-    <ObjectData xsi:nil="true" />
-    <ObjectData xsi:nil="true" />
-  </Player>
+  <Player />
   <Enemy />
   <Backgrounds>
     <ObjectData>
-      <name>city 1</name>
+      <name>fn1</name>
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
@@ -18,7 +14,7 @@
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
-      <name>city 2</name>
+      <name>fn2</name>
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
@@ -26,7 +22,7 @@
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
-      <name>city 3</name>
+      <name>fn3</name>
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
@@ -34,7 +30,7 @@
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
-      <name>city 4</name>
+      <name>fn4</name>
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>
@@ -42,7 +38,7 @@
       <posZ>0</posZ>
     </ObjectData>
     <ObjectData>
-      <name>city 5</name>
+      <name>fn5</name>
       <angle>0</angle>
       <height>0</height>
       <posX>0</posX>

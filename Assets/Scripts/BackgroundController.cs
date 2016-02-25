@@ -14,7 +14,7 @@ public class BackgroundController : MonoBehaviour {
 
 		if (isMove) {
 			transform.position += new Vector3 (0, -speed, 0);
-			if (transform.position.y <= -30.95f) {
+			if (transform.position.y <= -32.0f) {
 				isMove = false;
 			}
 		}
