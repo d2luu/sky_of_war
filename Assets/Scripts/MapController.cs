@@ -13,10 +13,6 @@ public class MapController : MonoBehaviour {
 	
 	}
 	public void ClickChooseMap(){
-<<<<<<< HEAD
-
-=======
->>>>>>> df042f286c921f12598ab575554236bcf02bb7fe
 		Application.LoadLevel ("Demo Game Play");
 
 	}

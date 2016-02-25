@@ -27,7 +27,7 @@ public class PlayerController : Vehicle {
 		currentMousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 		
 		float swipeSpeed = (currentMousePos - prevMousePos).magnitude / Time.deltaTime;
-		Debug.Log ("Toc do chuot"+ swipeSpeed);
+		//Debug.Log ("Toc do chuot"+ swipeSpeed);
 
 		Vector2 direction = (currentMousePos - prevMousePos).normalized;
 		

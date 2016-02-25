@@ -17,7 +17,3 @@ public class Vehicle : MonoBehaviour{
 		Debug.Log("Healthy:" + healthy);
 	}
 }
-<<<<<<< HEAD
- 
-=======
->>>>>>> df042f286c921f12598ab575554236bcf02bb7fe
