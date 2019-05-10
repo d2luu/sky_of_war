@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class EnemyController : MonoBehaviour {
+	public GameObject explosionEnemy;
 	Vector2 prevPos; //vi tri truoc
 	Vector2 currentPos; // vi tri sau
 	int random;
@@ -49,7 +50,14 @@ public class EnemyController : MonoBehaviour {
 
 	
 	}
-
+	void OnTriggerEnter2D(Collider2D col)
+	{
+		if (col.tag == "Player" || col.tag == "BulletPlayer" ) 
+		{
+			Instantiate(explosionEnemy,transform.position,transform.rotation);
+			Destroy(gameObject);
+		}
+	}
 
 	
 	

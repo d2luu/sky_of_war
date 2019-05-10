@@ -13,7 +13,7 @@ public class PathController : MonoBehaviour {
 	}
 	// Use this for initialization
 	void Start () {
-		getPathAirLine() ;
+		//getPathAirLine() ;
 	}
 
 
@@ -27,6 +27,6 @@ public class PathController : MonoBehaviour {
 	}
 
 	void Update () {
-		//getPathAirLine() ;
+		getPathAirLine() ;
 	}
 }
